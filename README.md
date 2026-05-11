@@ -1,8 +1,8 @@
-# Steam GBC
+# steam 雷姆
 
 基于 [Millennium](https://github.com/SteamClientHomebrew/Millennium) 框架的 Steam 皮肤
 
-![preview](https://github.com/user-attachments/assets/3bc2da0b-9ab3-450c-b1cf-0b9234803505)
+![preview](md.png)
 
 ## 功能
 
