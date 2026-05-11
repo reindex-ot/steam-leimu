@@ -1,0 +1,17 @@
+/* ========================================
+   GBC Menu Styles - MD3 Enhanced
+   Applies to: Context Menus, Supernav, Root Menus
+   ======================================== */
+
+/* Popup Container */
+._2yAm5LY_eu-Vg_52l0HFlM,
+.PP7LM0Ow1K5qkR8WElLpt {
+	border-radius: var(--corner-radius-large, 16px) !important;
+	overflow: hidden !important;
+}
+
+/* Inner Container */
+._2EstNjFIIZm_WUSKm5Wt7n {
+	border-radius: var(--corner-radius-large, 16px) !important;
+	overflow: hidden !important;
+}

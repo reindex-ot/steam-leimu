@@ -1,0 +1,99 @@
+{
+    "name": "leimu",
+    "author": "煜峰",
+    "description": "by 煜峰",
+
+    "github": {
+        "owner": "yufengOvO",
+        "repo_name": "steam-leimu"
+    },
+    "tags": [
+        "Background",
+        "Custom",
+        "MD3",
+        "Material"
+    ],
+    "version": "1.0",
+    "Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true,
+    "Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "libraryroot.custom.css",
+            "TargetJs": "libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".friendsui-container",
+            "TargetCss": "friends.custom.css",
+            "TargetJs": "friends.custom.js"
+        },
+        {
+            "MatchRegexString": "^Steam Overlay.*",
+            "TargetCss": "overlay.custom.css"
+        },
+        {
+            "MatchRegexString": "Notifications$",
+            "TargetCss": "notifications.custom.css"
+        },
+        {
+            "MatchRegexString": ".*",
+            "TargetCss": "menu.custom.css"
+        }
+    ],
+    "Conditions": {
+        "\u4e3b\u9898\u5207\u6362": {
+            "description": "\u5207\u6362\u9ed1\u6697\u4e3b\u9898\u6216\u660e\u4eae\u4e3b\u9898",
+            "default": "dark",
+            "tab": "\u901a\u7528",
+            "values": {
+                "dark": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "dark.css"
+                    }
+                },
+                "light": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "light.css"
+                    }
+                }
+            }
+        },
+        "\u5706\u89d2\u534a\u5f84": {
+            "description": "\u8bbe\u7f6eUI\u5143\u7d20\u7684\u5706\u89d2\u534a\u5f84\u5927\u5c0f",
+            "default": "medium",
+            "tab": "\u6837\u5f0f",
+            "values": {
+                "small": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "radius-small.css"
+                    }
+                },
+                "medium": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "radius-medium.css"
+                    }
+                },
+                "large": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "radius-large.css"
+                    }
+                }
+            }
+        }
+    }
+}
