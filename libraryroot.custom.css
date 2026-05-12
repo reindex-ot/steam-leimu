@@ -152,8 +152,8 @@
 
 /* Home & Collections Tabs */
 ._3pSPluBgf0NeR1kkCLWMhR {
-	border-top-left-radius: var(--corner-radius-medium);
-	border-bottom-left-radius: var(--corner-radius-medium);
+	border-top-left-radius: var(--corner-radius-small);
+	border-bottom-left-radius: var(--corner-radius-small);
 	border-top-right-radius: var(--corner-radius-extra-small);
 	border-bottom-right-radius: var(--corner-radius-extra-small);
 }
@@ -161,8 +161,8 @@
 ._3pSPluBgf0NeR1kkCLWMhR._30KGSfPjPskFlnrSxBfkiK {
 	border-top-left-radius: var(--corner-radius-extra-small);
 	border-bottom-left-radius: var(--corner-radius-extra-small);
-	border-top-right-radius: var(--corner-radius-medium);
-	border-bottom-right-radius: var(--corner-radius-medium);
+	border-top-right-radius: var(--corner-radius-small);
+	border-bottom-right-radius: var(--corner-radius-small);
 }
 
 /* Game List Category */
@@ -227,7 +227,7 @@
 /* Main Content Area */
 ._2Dd4T78PcCTUVgOtDGFY5j, ._2g5K_hJWc7jVo81zuejhk2 {
 	background: rgba(var(--main), 0.3) !important;
-	border-radius: var(--corner-radius-large);
+	border-radius: 0;
 }
 
 /* Content Inner */
@@ -323,6 +323,8 @@
 ._5uvIN6jXDXzzck59F-nhv {
 	border-radius: var(--corner-radius-large) !important;
 	overflow: hidden !important;
+	width: 100% !important;
+	isolation: isolate;
 }
 
 /* Section Groups */
@@ -339,7 +341,7 @@
 /* Avatar Holder - Circle */
 .nibodjvvrm86uCfnnAn4g.avatarHolder {
 	border-radius: var(--corner-radius-full) !important;
-	overflow: hidden !important;
+	position: relative;
 }
 
 /* Avatar Image - Circle */
@@ -347,9 +349,28 @@
 	border-radius: var(--corner-radius-full) !important;
 }
 
-/* Avatar Status Indicator */
+/* Avatar Status - Bottom Right */
 ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
-	border-radius: var(--corner-radius-full) !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	left: unset !important;
+	top: unset !important;
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50% !important;
+	border: unset !important;
+	z-index: 1 !important;
+}
+
+/* Offline Status - Gray Fill */
+.nibodjvvrm86uCfnnAn4g.avatarHolder.offline ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	background: #898989 !important;
+}
+
+/* Away Status - Light Blue */
+.nibodjvvrm86uCfnnAn4g.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	background: #4C91AC !important;
 }
 
 /* Friends List Container */
@@ -375,7 +396,7 @@
 
 /* Achievement Section Panel */
 ._31ptFGGMZrSQc5BCX1e5lm {
-	border-radius: var(--corner-radius-medium) !important;
+	border-radius: var(--corner-radius-large) !important;
 	overflow: hidden !important;
 }
 
@@ -583,4 +604,10 @@ body .DialogDropDown, body .DialogDropDown:hover {
 
 ._2Kmn7fJOkLT4KyWl467a9M {
 	border-radius: var(--corner-radius-medium);
+}
+
+/* Download Button */
+._3AjoLnMNKxYmNTGTJCLfgs {
+	border-radius: var(--corner-radius-small) !important;
+	overflow: hidden !important;
 }

@@ -13,7 +13,7 @@
         "MD3",
         "Material"
     ],
-    "version": "1.0",
+    "version": "1.1",
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
     "Patches": [

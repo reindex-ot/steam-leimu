@@ -34,7 +34,7 @@ body {
 	background: rgba(var(--main), 0.9) !important;
 	backdrop-filter: blur(12px) !important;
 	-webkit-backdrop-filter: blur(12px) !important;
-	box-shadow: var(--elevated-shadow) !important;
+	box-shadow: unset !important;
 	border: unset !important;
 	overflow: hidden !important;
 }

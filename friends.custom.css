@@ -2,9 +2,16 @@
    GBC Friends & Chat - MD3 Enhanced
    ======================================== */
 
-/* Background Image */
-html.client_chat_frame body, html.web_chat_frame body {
+/* Background Image - Friends List */
+html.MillenniumWindow_FriendsList body {
 	background-image: url("friends.jpg");
+	background-position: center center;
+	background-size: cover;
+}
+
+/* Background Image - Chat Window */
+html.MillenniumWindow_FriendChatWindow body {
+	background-image: url("main.jpg");
 	background-position: center center;
 	background-size: cover;
 }
@@ -145,12 +152,57 @@ html.client_chat_frame body, html.web_chat_frame body {
    ======================================== */
 
 /* Input Container */
+.chatEntry {
+	background-color: rgba(var(--main), 0.3) !important;
+}
+
 ._3Ule3rolhZJiBN4yNNtk1s {
-	background-color: rgba(var(--main), 0.1) !important;
+	background-color: rgba(var(--main), 0.3) !important;
 	border: unset;
 	box-shadow: unset;
 	border-radius: var(--corner-radius-full);
 	order: 2;
+}
+
+/* Emoji & Special Content Buttons */
+.Aupswi7-c-w3XwNO5cp2i,
+._3zOBeq5W4cNK3lRz_7aroW {
+	background-color: transparent !important;
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* Avatar - Circle */
+.nibodjvvrm86uCfnnAn4g.avatarHolder {
+	border-radius: var(--corner-radius-full) !important;
+	position: relative;
+}
+
+._3h-QRJGxnVOIExtHD1R0f2.avatar {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* Avatar Status - Bottom Right */
+._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	position: absolute !important;
+	bottom: 0 !important;
+	right: 0 !important;
+	left: unset !important;
+	top: unset !important;
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50% !important;
+	border: unset !important;
+	z-index: 1 !important;
+}
+
+/* Offline Status - Gray Fill */
+.nibodjvvrm86uCfnnAn4g.avatarHolder.offline ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	background: #898989 !important;
+}
+
+/* Away Status - Light Blue */
+.nibodjvvrm86uCfnnAn4g.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.avatarStatus {
+	background: #4C91AC !important;
 }
 
 /* Input Text Area */
@@ -305,7 +357,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 ._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
 	top: -28px;
 	right: -28px;
-	box-shadow: var(--elevated-shadow);
+	box-shadow: unset;
 	border: unset;
 	border-radius: var(--corner-radius-full);
 }
