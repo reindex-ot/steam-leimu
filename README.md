@@ -8,11 +8,9 @@ A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Mi
 
 ## Features
 
-- MD3 style rounded corners
-- Dark/Light theme switching
+- Rounded corner design
 - Three corner radius options (Small/Medium/Large)
 - Custom background images
-- Video background support
 - Covers all Steam UI: Library, Friends, Store, Menu, Notifications, Overlay
 
 ## Installation
@@ -23,15 +21,18 @@ A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Mi
 
 ## Custom Background
 
-Use `skintool.exe` to customize background, adjust transparency (0~1) and rename the skin. Recommended background image resolution: 1920×1080
+Replace the following image files in the `images/` folder to customize the background:
+
+- `main.jpg` - Library background
+- `friends.jpg` - Friends list background
+
+Recommended resolution: 1920×1080
 
 ## Project Structure
 
 ```
 steam-leimu/
 ├── css/                    # CSS files
-│   ├── dark.css           # Dark theme
-│   ├── light.css          # Light theme
 │   ├── libraryroot.custom.css
 │   ├── friends.custom.css
 │   ├── overlay.custom.css
@@ -48,7 +49,6 @@ steam-leimu/
 │   ├── friends.jpg
 │   └── md.png
 ├── skin.json              # Skin configuration
-├── Install.cmd            # Installation script
 └── LICENSE                # MIT License
 ```
 
