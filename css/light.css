@@ -72,6 +72,13 @@
 	--animation-basic-slow: all .2s ease-in-out;
 	--animation-basic-medium: all .15s ease-in-out;
 	--animation-basic-fast: all .1s ease-in-out;
+
+	/* Glass Effect (macOS Dock Style) */
+	--glass-bg: rgba(255, 255, 255, 0.01);
+	--glass-border: rgba(0, 0, 0, 0.06);
+	--glass-blur: 20px;
+	--glass-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	--glass-highlight: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -87,16 +94,19 @@
 	background: rgba(var(--main), 0.3) !important;
 }
 
+/* Game List Hover */
 ._2-O4ZG0KrnSrzISHBKctFQ:hover {
-	background-color: rgba(205, 197, 180, 0.5);
+	background-color: rgba(0, 0, 0, 0.15) !important;
 }
 
+/* Game List Selected */
 ._1UBpAXP408Ez_L_mXhW5Q9 {
-	background-color: #c1b196 !important;
+	background-color: rgba(0, 0, 0, 0.2) !important;
 }
 
-._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ :hover {
-	background-color: #a79069 !important;
+/* Game List Selected + Hover */
+._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover {
+	background-color: rgba(0, 0, 0, 0.25) !important;
 }
 
 ._1HZy7BvOZuPT8feUwadL4W, .LibriMVXcLl1HB60ZUp78 {
@@ -121,4 +131,25 @@
 
 ._3Tfp8-wTAttW3WVa_X9JVC, ._3oavRVhIS9tC3vBsFT4Ggi {
 	background: rgba(var(--main), 0.3) !important;
+}
+
+/* Dropdown Menu Text */
+._2yAm5LY_eu-Vg_52l0HFlM *,
+.PP7LM0Ow1K5qkR8WElLpt *,
+._2EstNjFIIZm_WUSKm5Wt7n * {
+	color: #1a1a1a !important;
+}
+
+/* Dropdown Menu Item Hover */
+.popup_menu_item:hover,
+._2yAm5LY_eu-Vg_52l0HFlM .popup_menu_item:hover,
+.PP7LM0Ow1K5qkR8WElLpt .popup_menu_item:hover {
+	background-color: rgba(0, 0, 0, 0.15) !important;
+	color: #000000 !important;
+}
+
+/* Light Theme Menu Background */
+._2yAm5LY_eu-Vg_52l0HFlM,
+.PP7LM0Ow1K5qkR8WElLpt {
+	background: rgba(255, 255, 255, 0.85) !important;
 }

@@ -14,9 +14,15 @@
 	background-size: cover;
 }
 
-/* ========================================
-   Title Bar & Toolbar
-   ======================================== */
+/* Hide Address Bar */
+.UkR3sY319PuaUNuUWks2K {
+	display: none !important;
+}
+
+/* Hide Toolbar Separator */
+._2CmrnGY-Amtd83ScJkFvx2 {
+	display: none !important;
+}
 ._3Z7VQ1IMk4E3HsHvrkLNgo, ._2CmrnGY-Amtd83ScJkFvx2, .UkR3sY319PuaUNuUWks2K, ._3vCzSrrXZzZjVJFZNg9SGu {
 	background: rgba(var(--main), 0.5) !important;
 	box-shadow: unset;
@@ -319,28 +325,18 @@
    Friends Who Played Section
    ======================================== */
 
-/* Main Container */
-._5uvIN6jXDXzzck59F-nhv {
-	border-radius: var(--corner-radius-large) !important;
-	overflow: hidden !important;
-	width: 100% !important;
-	isolation: isolate;
-}
+
 
 /* Section Groups */
 ._39bm0CkBxBjJsnPpAzoZlv {
-	border-radius: var(--corner-radius-medium) !important;
-	overflow: hidden !important;
 }
 
 /* Section Title */
 .nTb1NqsRSnwl0UTOYn_JA {
-	border-radius: var(--corner-radius-medium) !important;
 }
 
 /* Avatar Holder - Circle */
 .nibodjvvrm86uCfnnAn4g.avatarHolder {
-	border-radius: var(--corner-radius-full) !important;
 	position: relative;
 }
 
@@ -375,8 +371,6 @@
 
 /* Friends List Container */
 ._1umjft7ymqKrhhjDroeBUO {
-	border-radius: var(--corner-radius-medium) !important;
-	overflow: hidden !important;
 }
 
 /* View All Friends Button */
@@ -389,15 +383,24 @@
    ======================================== */
 
 /* Main Container */
-.vzLedtsu3TtTlKLEKzIhH {
-	border-radius: var(--corner-radius-large) !important;
+._5uvIN6jXDXzzck59F-nhv {
 	overflow: hidden !important;
 }
 
 /* Achievement Section Panel */
 ._31ptFGGMZrSQc5BCX1e5lm {
-	border-radius: var(--corner-radius-large) !important;
+	border-radius: var(--corner-radius-medium) !important;
 	overflow: hidden !important;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+/* Parent region container */
+._2r4TK4BAuU-J4FuF_O7v_5 {
+	border: none !important;
+	outline: none !important;
+	box-shadow: none !important;
 }
 
 /* Progress Bar Container */

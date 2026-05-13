@@ -275,29 +275,8 @@ html.MillenniumWindow_FriendChatWindow body {
 }
 
 /* Message Bubble Radius */
-.MultiUserChat .ChatMessageBlock .msg:nth-child(2):last-child .msgText {
-	border-radius: var(--corner-radius-full);
-}
-
-.MultiUserChat .ChatMessageBlock .msg:nth-child(2):not(:last-child) .msgText {
-	border-top-left-radius: var(--corner-radius-large);
-	border-top-right-radius: var(--corner-radius-large);
-	border-bottom-left-radius: var(--corner-radius-small);
-	border-bottom-right-radius: var(--corner-radius-large);
-}
-
-.MultiUserChat .ChatMessageBlock .msg:not(:nth-child(2)):not(:last-child) .msgText {
-	border-top-left-radius: var(--corner-radius-small);
-	border-top-right-radius: var(--corner-radius-large);
-	border-bottom-left-radius: var(--corner-radius-small);
-	border-bottom-right-radius: var(--corner-radius-large);
-}
-
-.MultiUserChat .ChatMessageBlock .msg:not(:nth-child(2)):last-child .msgText {
-	border-top-left-radius: var(--corner-radius-small);
-	border-top-right-radius: var(--corner-radius-large);
-	border-bottom-left-radius: var(--corner-radius-large);
-	border-bottom-right-radius: var(--corner-radius-large);
+.MultiUserChat .ChatMessageBlock .msg .msgText {
+	border-radius: var(--corner-radius-large) !important;
 }
 
 /* Chat Images */

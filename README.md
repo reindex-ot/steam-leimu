@@ -21,12 +21,11 @@ A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Mi
 
 ## Custom Background
 
-Replace the following image files in the `images/` folder to customize the background:
+1. Run `skinTool.exe`
+2. Select the background image you want to use
+3. Restart Steam to apply changes
 
-- `main.jpg` - Library background
-- `friends.jpg` - Friends list background
-
-Recommended resolution: 1920×1080
+The skinTool supports both Chinese and English interfaces based on your system language.
 
 ## Project Structure
 

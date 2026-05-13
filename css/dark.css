@@ -73,6 +73,13 @@
 	--animation-basic-slow: all .2s ease-in-out;
 	--animation-basic-medium: all .15s ease-in-out;
 	--animation-basic-fast: all .1s ease-in-out;
+
+	/* Glass Effect (macOS Dock Style) */
+	--glass-bg: rgba(30, 30, 30, 0.01);
+	--glass-border: rgba(255, 255, 255, 0.08);
+	--glass-blur: 20px;
+	--glass-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+	--glass-highlight: rgba(255, 255, 255, 0.05);
 }
 
 ._2-O4ZG0KrnSrzISHBKctFQ:hover {

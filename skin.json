@@ -13,7 +13,7 @@
         "MD3",
         "Material"
     ],
-    "version": "1.1.1",
+    "version": "1.1.2",
     "Steam-WebKit": "css/webkit.css",
     "UseDefaultPatches": true,
     "Patches": [
@@ -41,10 +41,10 @@
         }
     ],
     "Conditions": {
-        "\u4e3b\u9898\u5207\u6362": {
-            "description": "\u5207\u6362\u9ed1\u6697\u4e3b\u9898\u6216\u660e\u4eae\u4e3b\u9898",
+        "Theme": {
+            "description": "Switch between dark and light theme",
             "default": "dark",
-            "tab": "\u901a\u7528",
+            "tab": "General",
             "values": {
                 "dark": {
                     "TargetCss": {
@@ -64,10 +64,10 @@
                 }
             }
         },
-        "\u5706\u89d2\u534a\u5f84": {
-            "description": "\u8bbe\u7f6eUI\u5143\u7d20\u7684\u5706\u89d2\u534a\u5f84\u5927\u5c0f",
+        "Corner Radius": {
+            "description": "Set the corner radius size for UI elements",
             "default": "medium",
-            "tab": "\u6837\u5f0f",
+            "tab": "Style",
             "values": {
                 "small": {
                     "TargetCss": {
