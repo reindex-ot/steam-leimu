@@ -1,7 +1,7 @@
 {
     "name": "leimu",
-    "author": "煜峰",
-    "description": "liemu steam Skin",
+    "author": "yufeng",
+    "description": "leimu steam skin",
 
     "github": {
         "owner": "yufengOvO",
@@ -13,7 +13,7 @@
         "MD3",
         "Material"
     ],
-    "version": "1.1.2",
+    "version": "1.2.0",
     "Steam-WebKit": "css/webkit.css",
     "UseDefaultPatches": true,
     "Patches": [
@@ -41,7 +41,7 @@
         }
     ],
     "Conditions": {
-        "Theme": {
+        "\u4e3b\u9898\u5207\u6362": {
             "description": "Switch between dark and light theme",
             "default": "dark",
             "tab": "General",
@@ -64,7 +64,7 @@
                 }
             }
         },
-        "Corner Radius": {
+        "\u5706\u89d2\u534a\u5f84": {
             "description": "Set the corner radius size for UI elements",
             "default": "medium",
             "tab": "Style",

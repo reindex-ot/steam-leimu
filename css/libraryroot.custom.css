@@ -506,6 +506,15 @@
 /* Dialog Border Radius */
 .ModalDialogPopup .DialogContent, .DialogContent:not([role="tabpanel"]), .DialogContentTransition:not(.OX7USkJ5dDP_icD00Gal6) {
 	border-radius: var(--corner-radius-extra-large);
+	overflow: hidden;
+	border: none;
+}
+
+/* Dialog Parent Container */
+.ModalPosition_Content {
+	border-radius: var(--corner-radius-extra-large);
+	overflow: hidden;
+	border: none;
 }
 
 /* Remove Dialog Line */
