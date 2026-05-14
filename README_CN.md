@@ -1,4 +1,4 @@
-# Steam 雷姆
+# Steam 蕾姆
 
 [English](README.md)
 
