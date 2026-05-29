@@ -199,6 +199,17 @@
 	box-shadow: unset;
 }
 
+/* Game List - Installed Text */
+._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE ._1vO6BoiVslZgs1kqDGdUs8 > span {
+	color: #ffffff !important;
+	font-weight: bold !important;
+}
+
+/* Game List - Not Installed Text */
+._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph ._1vO6BoiVslZgs1kqDGdUs8 > span {
+	color: #d0d0d0 !important;
+}
+
 /* Search Bar */
 ._20QAC4WMXm8qFE8waUT5oo {
 	gap: 4px;

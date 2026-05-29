@@ -1,4 +1,4 @@
-# Steam 蕾姆
+# Steam 雷姆
 
 [English](README.md)
 
@@ -21,11 +21,14 @@
 
 ## 自定义背景
 
-1. 运行 `skinTool.exe`
-2. 选择要使用的背景图片
-3. 重启 Steam 应用更改
+手动替换背景图片：
 
-skinTool 支持中文和英文界面，会根据系统语言自动切换。
+1. 准备一张图片（支持 jpg/png 格式）
+2. 将图片重命名为 `main.jpg`
+3. 替换 `images/main.jpg` 文件
+4. 重启 Steam 应用更改
+
+好友列表背景：替换 `images/friends.jpg`
 
 ## 项目结构
 
