@@ -1,0 +1,100 @@
+{
+    "name": "leimu",
+    "author": "yufengOvO",
+    "description": "A modern Steam skin with dark theme and rounded corners",
+
+    "github": {
+        "owner": "yufengOvO",
+        "repo_name": "steam-leimu"
+    },
+    "header_image": "images/header.png",
+    "splash_image": "images/splash.png",
+    "tags": [
+        "Background",
+        "Custom",
+        "Dark",
+        "Rounded"
+    ],
+    "version": "1.2.0",
+    "Steam-WebKit": "css/webkit.css",
+    "Patches": [
+        {
+            "MatchRegexString": "^Steam$",
+            "TargetCss": "css/libraryroot.custom.css",
+            "TargetJs": "js/libraryroot.custom.js"
+        },
+        {
+            "MatchRegexString": ".friendsui-container",
+            "TargetCss": "css/friends.custom.css",
+            "TargetJs": "js/friends.custom.js"
+        },
+        {
+            "MatchRegexString": "^Steam Overlay.*",
+            "TargetCss": "css/overlay.custom.css"
+        },
+        {
+            "MatchRegexString": "Notifications$",
+            "TargetCss": "css/notifications.custom.css"
+        },
+        {
+            "MatchRegexString": ".*",
+            "TargetCss": "css/menu.custom.css"
+        }
+    ],
+    "Conditions": {
+        "Theme Switch": {
+            "description": "Switch between dark and light theme",
+            "default": "dark",
+            "tab": "General",
+            "values": {
+                "dark": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/dark.css"
+                    }
+                },
+                "light": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/light.css"
+                    }
+                }
+            }
+        },
+        "Corner Radius": {
+            "description": "Set the corner radius size for UI elements",
+            "default": "medium",
+            "tab": "Style",
+            "values": {
+                "small": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/radius-small.css"
+                    }
+                },
+                "medium": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/radius-medium.css"
+                    }
+                },
+                "large": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/radius-large.css"
+                    }
+                }
+            }
+        }
+    }
+}
