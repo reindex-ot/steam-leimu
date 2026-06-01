@@ -3,15 +3,8 @@
    ======================================== */
 
 /* Background Image - Friends List */
-html.MillenniumWindow_FriendsList body {
+html.friendsui-container body {
 	background-image: url("../images/friends.jpg");
-	background-position: center center;
-	background-size: cover;
-}
-
-/* Background Image - Chat Window */
-html.MillenniumWindow_FriendChatWindow body {
-	background-image: url("../images/main.jpg");
 	background-position: center center;
 	background-size: cover;
 }
