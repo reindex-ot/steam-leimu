@@ -7,8 +7,8 @@
         "owner": "yufengOvO",
         "repo_name": "steam-leimu"
     },
-    "header_image": "images/header.png",
-    "splash_image": "images/splash.png",
+    "header_image": "https://raw.githubusercontent.com/yufengOvO/steam-leimu/refs/heads/main/images/header.png",
+    "splash_image": "https://raw.githubusercontent.com/yufengOvO/steam-leimu/refs/heads/main/images/splash.png",
     "tags": [
         "Background",
         "Custom",
