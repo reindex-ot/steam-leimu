@@ -2,35 +2,35 @@
 
 [中文](https://github.com/yufengOvO/steam-leimu/blob/main/README_CN.md)
 
-A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Millennium) framework with Material Design 3 style.
+[Millennium](https://github.com/SteamClientHomebrew/Millennium) フレームワークをベースにした、Material Design 3 スタイルな Steam スキンです。
 
 ![preview](images/header.png)
 
 ## 機能
 
-- Rounded corner design
-- Three corner radius options (Small/Medium/Large)
-- Custom background images
-- Covers all Steam UI: Library, Friends, Store, Menu, Notifications, Overlay
+- 角丸なデザイン
+- 3 種類のコーナー半径のオプション (小/中/大)
+- カスタム背景画像
+- Steam UI 全体に対応: ライブラリ、フレンド、ストア、メニュー、通知、オーバーレイ
 
 ## インストール
 
-1. Install [Millennium](https://github.com/SteamClientHomebrew/Millennium)
-2. Place the skin folder into `steamui/skins/` directory
-3. Select the skin in Millennium settings
+1. [Millennium](https://github.com/SteamClientHomebrew/Millennium) をインストールします
+2. スキンフォルダーを `steamui/skins/` のディレクトリに配置してください
+3. Millennium の設定でスキンを選択してください
 
 ## カスタム背景
 
 手動で背景画像を変更できます:
 
-1. Prepare an image (jpg/png 形式に対応)
-2. Rename the image to `main.jpg`
-3. Replace the `images/main.jpg` file
-4. Restart Steam to apply changes
+1. 画像を用意します (jpg/png 形式に対応)
+2. 画像のファイル名を `main.jpg` に変更します
+3. `images/main.jpg` のファイルを置換します
+4. Steam を再起動で変更が適用されます
 
-Friends list background: Replace `images/friends.jpg`
+フレンドリストの背景はこちら: `images/friends.jpg` を置換する
 
-## Project Structure
+## プロジェクトの構成
 
 ```
 steam-leimu/
@@ -58,7 +58,7 @@ steam-leimu/
 
 ## ライセンス
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+このプロジェクトは、MIT ライセンスに基づいてライセンスされています。詳細は、[LICENSE](LICENSE) ファイルを参照してください。
 
 ## 作者
 
