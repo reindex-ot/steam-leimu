@@ -1,4 +1,4 @@
-# Steam レム
+# Steam Rem
 
 [English](./README.md) | [中文](./README_CN.md) | **日本語**
 
