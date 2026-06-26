@@ -1,6 +1,6 @@
 # Steam Leimu
 
-[中文](https://github.com/yufengOvO/steam-leimu/blob/main/README_CN.md)
+[English](./README.md) | [中文](./README_CN.md)
 
 [Millennium](https://github.com/SteamClientHomebrew/Millennium) フレームワークをベースにした、Material Design 3 スタイルな Steam スキンです。
 
