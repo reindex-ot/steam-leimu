@@ -46,6 +46,7 @@ steam-leimu/
 │   ├── libraryroot.custom.js
 │   ├── friends.custom.js
 │   └── bigpicture.custom.js
+│   └── localizer.js # translate file
 ├── images/                 # Image assets
 │   ├── main.jpg
 │   ├── friends.jpg
