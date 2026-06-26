@@ -1,6 +1,6 @@
 # Steam Leimu
 
-[中文](./README_CN.md) | [日本語](./README_JA.md)
+**English** | [中文](./README_CN.md) | [日本語](./README_JA.md)
 
 A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Millennium) framework with Material Design 3 style.
 
