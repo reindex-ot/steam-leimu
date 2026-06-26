@@ -21,9 +21,9 @@ A Steam skin based on the [Millennium](https://github.com/SteamClientHomebrew/Mi
 
 ## カスタム背景
 
-Manually replace the background image:
+手動で背景画像を変更できます:
 
-1. Prepare an image (jpg/png format supported)
+1. Prepare an image (jpg/png 形式に対応)
 2. Rename the image to `main.jpg`
 3. Replace the `images/main.jpg` file
 4. Restart Steam to apply changes
