@@ -45,7 +45,8 @@ steam-leimu/
 ├── js/                     # JavaScript ファイル
 │   ├── libraryroot.custom.js
 │   ├── friends.custom.js
-│   └── bigpicture.custom.js
+│   ├── bigpicture.custom.js
+│   └── localizer.js        # 言語ファイル
 ├── images/                 # 画像のアセット
 │   ├── main.jpg
 │   ├── friends.jpg
