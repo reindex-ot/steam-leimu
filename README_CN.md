@@ -1,6 +1,6 @@
 # Steam 雷姆
 
-[English](./README.md) | [日本語](./README_JA.md)
+[English](./README.md) | **中文** | [日本語](./README_JA.md)
 
 基于 [Millennium](https://github.com/SteamClientHomebrew/Millennium) 框架的 Steam 皮肤
 
